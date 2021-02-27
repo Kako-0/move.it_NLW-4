@@ -60,3 +60,18 @@
 .buttonCountdown:hover {
     background: var(--blue-dark);
 }
+
+.buttonCountdownActive {
+    background: var(--white);
+    color: var(--title);
+}
+.buttonCountdownActive:hover {
+    background: var(--red);
+    color: var(--white);
+}
+
+.buttonCountdown:disabled {
+    background: var(--white);
+    color: var(--text);
+    cursor: not-allowed;
+}
