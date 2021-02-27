@@ -69,9 +69,13 @@
     background: var(--red);
     color: var(--white);
 }
+.buttonCountdownActive:hover img{
+    filter: brightness(300%);
+}
 
 .buttonCountdown:disabled {
     background: var(--white);
     color: var(--text);
+    border-bottom: 5px solid var(--green);
     cursor: not-allowed;
 }
